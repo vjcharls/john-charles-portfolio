@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Charles Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body bgcolor="#070707">
+
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="intro-logo">C</span>
+            <span class="intro-logo">h</span>
+            <span class="intro-logo">a</span>
+            <span class="intro-logo">r</span>
+            <span class="intro-logo">l</span>
+            <span class="intro-logo">e</span>
+            <span class="intro-logo">s</span>
+
+        </h1>
+    </div>
+
+    <nav id="desktop-nav" class="bgcolor">
+        <div class="logo"><img src="./Assets/charles.png"
+            alt="John Charles" onclick="location.href='./#profile'">
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">John Charles</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links" onclick="togglemenu()">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="home-pic"
+            src="./Assets/johnphoto.png" alt="John Charles">
+        </div>
+        <div class="section__text" class="show">
+            <p class="section__text__p1">Hello there, I'm</p>
+            <h1 class="title">John Charles</h1>
+            <p class="section__text__p2">Graphic Designer  &  Film Maker & Video Editor</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./Assets/John Charles resume.pdf')"
+                >
+                My Resume
+                </button>
+                <button class="btn btn-color-1"
+                onclick="location.href='./#contact'">
+                Get in touch
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src='./Assets/linkedin.png' alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/john-charles-j-vetias-862b0b292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'">
+                <img src='./Assets/insta.png' alt="My Instagram Handle"
+                class="icon" onclick="location.href='https://www.instagram.com/vjcharles_official?igsh=MTNzbHg5NGIxZGt0NQ=='">
+                </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text">Get To Know</p>
+        <h1 class="title2">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Assets/profilepic.png"
+                alt="John Charles Profile Picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png"
+                        alt="experience icon" class="icon">
+                        <h3 class="about-headings">Experience</h3>
+                        <p><b>2+ years</b><br>Graphic Designing<br>Video Editing<br>Media</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/graduation.png"
+                        alt="education icon" class="icon">
+                        <h3 class="about-headings">Education</h3>
+                        <p><b>VET Institute of Arts and Science</b>
+                        <br>B.sc Computer science and applications (Full Time)<br>
+                        2021 - 2024</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I’m a passionate Graphic Designer, Filmmaker, and Video Editor with a sharp eye for visual storytelling. With hands-on experience in Adobe Premiere Pro, After Effects, Illustrator, and Final Cut Pro, I bring ideas to life with creative precision and cinematic flair. My work spans across brand design, short films, and compelling social media content — blending design and narrative into powerful visual experiences. Alongside my creative skills, I also work as a Social Media Manager, where I craft result-driven strategies, boost engagement, and grow online communities. I thrive on building strong visual identities and creating content that not only looks good — but connects, engages, and performs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text">Have a look at my</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+                <div class="sk-details-container">
+                    <h2 class="skills-subtitle">Graphic Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Photoshop</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Illustrator</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Master</p>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="skills-subtitle">Video Editing</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Premiere Pro</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe After Effects</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>           
+                </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="section__text">Explore my</p>
+        <h1 class="title">Work</h1>
+        <div class="work-list">
+            <a href="./Assets/ALTROZ.jpg"><div class="work">
+                <img src="./Assets/ALTROZ.jpg" alt="KUN TATA">
+                <div class="layer">
+                    <h3>KUN TATA</h3>
+                </div>
+            </div></a>
+            <a href="./Assets/Deyga.png"><div class="work">
+                <img src="./Assets/Deyga.png" alt="Deyga">
+                <div class="layer">
+                    <h3>Deyga</h3>
+                </div>
+            </div></a>
+            <a href="./Assets/vilvah.jpg"><div class="work">
+                <img src="./Assets/vilvah.jpg" alt="Vilvah">
+                <div class="layer">
+                    <h3>Vilvah</h3>
+                </div>
+            </div></a>
+            
+        </div>
+
+            </div>
+        </div>
+        <a href="projects.html">
+        <button class="btn btn-color-2">
+                See more
+            </button></a>
+    </section>
+
+    <section id="contact">
+        <p class="section__text" style="padding-bottom: 0.3rem;">Get In Touch</p>
+        <h1 class="title" style="font-weight: 600;">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <a href="mailto:johncharlesj21csa@vetias.ac.in">
+                    <img src="./Assets/email.png" alt="Email icon"
+                    class="icon contact-icon">
+                    <p>johncharlesj21csa@vetias.ac.in</p>
+                </a>
+            </div>
+            <div class="contact-info-container">
+            <a href="https://www.linkedin.com/in/john-charles-j-vetias-862b0b292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img src="./Assets/linkedin.png" alt="LinkedIn" 
+                class="icon contact-icon">
+                <p>Connect with me on LinkedIn</p>
+            </a>
+            </div>
+            <div class="contact-info-container">
+            <a href="https://www.instagram.com/vjcharles_official?igsh=MTNzbHg5NGIxZGt0NQ==">
+                <img src='./Assets/insta.png' alt="My Instagram Handle" 
+                class="icon contact-icon">
+                <p>DM me on Instagram</p>
+            </a>
+            </div>
+        </div>
+        <div class="logo"><img src="./Assets/charles.png"
+            alt="charles" onclick="location.href='./#profile'">
+        </div> 
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container2">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav><br>
+        <p>Copyright &#169; 2024 John Charles. All Rights Resereved.</p>
+    </footer>
+
+   <script defer src="script.js"></script> 
+</body>
+</html>
